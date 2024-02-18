@@ -8,7 +8,35 @@
     <link rel="stylesheet" href="/css/utility.css">
 </head>
 <body>
-  
+  <div class="section flex justify-content align-items">
+    <div class="container flex flex-column rowg-1">
+        <div class="password" id="password-box">
+            Testing
+        </div>
+        <div class="flex space-between">
+            <h3>Password Length</h3>
+            <input type="number" name="" style="padding: 5px;width: 50px;" id="password-length">
+        </div>
+        <div class="flex space-between">
+            <h3>Contains Uppercase</h3>
+            <input type="checkbox" name="" id="uppercase">
+        </div>
+        <div class="flex space-between">
+            <h3>Contains Lowercase</h3>
+            <input type="checkbox" name="" id="lowercase">
+        </div>
+        <div class="flex space-between">
+            <h3>Contains Numbers</h3>
+            <input type="checkbox" name="" id="number"> 
+        </div>
+        <div class="flex space-between">
+            <h3>Contains Symbols</h3>
+            <input type="checkbox" name="" id="symbol"> 
+        </div>
+
+        <button id="btn">Generate</button>
+    </div>
+  </div>
   
     <script src="/js/app.js"></script>
 </body>
